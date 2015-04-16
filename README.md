@@ -4,7 +4,7 @@
 [ ![Release] [release-image] ] [releases]
 [ ![License] [license-image] ] [license]
 
-<img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/Naked_Beer-logo-large.png"
+<img src="https://github.com/M100group1/NakedBeer/images/Main_logo.png"
  alt="Naked_Beer logo" title="Naked_Beer" align="right" />
 
 Naked_Beer is an web-based enterprise-strength marketing scheme with the following competences:
@@ -91,7 +91,7 @@ limitations under the License.
 [license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 
-[website]: http://Naked_Beeranalytics.com
+[website]: https://github.com/M100group1/NakedBeer.git
 [wiki]: https://github.com/Naked_Beer/Naked_Beer/wiki
 [architecture-image]: https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/technical-architecture.png
 [architecture-doc]: https://github.com/M100group1/Naked_Beer/wiki/Technical-architecture
