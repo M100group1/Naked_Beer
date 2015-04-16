@@ -7,26 +7,36 @@
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/Naked_Beer-logo-large.png"
  alt="Naked_Beer logo" title="Naked_Beer" align="right" />
 
-Naked_Beer is an enterprise-strength marketing and product analytics platform. It does three things:
+Naked_Beer is an web-based enterprise-strength marketing scheme with the following competences:
+1. 	support, consultancy
+2. 	business model innovation?
+3. 	Brand recognition – brewers ore likely to sign up given expertise but wont be used to market to customers.
 
-1. Identifies your users, and tracks the way they engage with your website or application
-2. Stores your users' behavioural data in a scalable "event data warehouse" you control: in Amazon S3 and (optionally) Amazon Redshift or Postgres
-3. Lets you leverage the biggest range of tools to analyse that data incl. big data toolset (e.g. Hive, Pig, Mahout) via EMR or more traditional tools e.g. Tableau, R, Chartio to analyse that behavioural data
 
 **To find out more, please check out the [Naked_Beer website] [website] and the [Naked_Beer wiki] [wiki].**
 
-## Naked_Beer technology 101
+## Naked_Beer Concept
 
-The repository structure follows the conceptual architecture of Naked_Beer, which consists of five loosely coupled stages:
+The repository structure follows the concepts of Naked_Beer, which consists of five loosely coupled stages:
 
-![architecture] [architecture-image]
+![Market Research] [marketresearch-image]
 
 To briefly explain these five sub-systems:
 
-* **Trackers** fire Naked_Beer events. Currently we have 12 trackers, covering web, mobile, desktop, server and IoT
-* **Collectors** receive Naked_Beer events from trackers. Currently we have three different event collectors, sinking events either to Amazon S3 or Amazon Kinesis
-* **Enrich** cleans up the raw Naked_Beer events, enriches them and puts them into storage. Currently we have a Hadoop-based enrichment process, and a Kinesis-based process
-* **Storage** is where the Naked_Beer events live. Currently we store the Naked_Beer events in a flatfile structure on S3, and in the Redshift and Postgres databases
+* **Extreme Users** 
+-What can the design bring?
+-What are the opportunities offered by Unibrew global challenges
+-Energy recycling
+-Process control
+
+* **Industry Research and Business Model** 
+(a) protection
+(b) value chain
+(c) entrepreneurial strategy
+(d) business model
+
+* **Environmental and Social aspects** 
+
 * **Analytics** are performed on the Naked_Beer events. Currently we have a set of recipes and cubes as SQL views for both Redshift and Postgres, and an online cookbook of ad hoc analyses that work with Redshift, Postgres and Hive. We also have data models for [Looker] [looker] in LookML
 
 **For more information on the current Naked_Beer architecture, please see the [Technical architecture] [architecture-doc]**.
