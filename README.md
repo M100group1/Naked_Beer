@@ -4,7 +4,7 @@
 [ ![Release] [release-image] ] [releases]
 [ ![License] [license-image] ] [license]
 
-<img src="https://github.com/M100group1/NakedBeer/images/Main_logo.png"
+<img src="https://github.com/M100group1/Naked_Beer/tree/master/images/main_logo.png"
  alt="Naked_Beer logo" title="Naked_Beer" align="right" />
 
 Naked_Beer is an web-based enterprise-strength marketing scheme with the following competences:
